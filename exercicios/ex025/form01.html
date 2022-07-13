@@ -8,10 +8,13 @@
 </head>
 <body>
     <h1>Meu primeiro formulário</h1>
-    <form action="cadastro.php" autocomplete="off">
-        <p><label for="inome">Nome:</label> <input type="text" name="nome" id="inome"> </p>
-        <p><label for="isobrenome">Sobrenome:</label> <input type="text" name="sobrenome" id="isobrenome"> </p>
-        <p><input type="submit" value="Enviar"></p>
+    <form action="cadastro.php" method="post" autocomplete="off">
+        <p><label for="inome">Nome:</label> <input type="text" name="nome" id="inome" required placeholder="nome do usuário"> </p>
+        <p><label for="isenha">Senha:</label> <input type="password" name="Senha" id="isenha" required minlength="8" maxlength="15"> </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
     </form>
 </body>
 </html>
