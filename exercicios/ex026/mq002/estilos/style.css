@@ -1,4 +1,20 @@
 @charset "UTF-8";
 
-
 /* Comentários gerais */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    width: 100vw;
+    right: 100vh;
+    background-color: rgb(41, 41, 112);
+}
+
+h1 {
+    color: white;
+    text-shadow: 2px 2px 0px rgb(41, 41, 43);
+}
